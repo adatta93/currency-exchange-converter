@@ -1,4 +1,93 @@
 .App {
   font-family: sans-serif;
-  text-align: center;
+  text-align: left;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.col-from {
+  width: 25%;
+}
+
+.col-to {
+  margin-left: calc(2rem + 10px);
+}
+
+.input-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid #b400ff;
+  border-radius: 8px;
+  padding: 0px 5px;
+  margin-right: 10px;
+  margin-top: 5px;
+  box-shadow: 3px 2px 5px 0px #fd7878;
+}
+
+.input-box select,
+.input-box input {
+  outline: none;
+  border: 0px solid;
+  padding: 10px 0;
+}
+
+.input-box input {
+  width: 80px;
+  padding-left: 5px;
+}
+
+.input-box div {
+  min-width: 50px;
+  margin-left: 5px;
+}
+
+.to-currency {
+  display: flex;
+}
+
+.converter-list {
+  margin: 15px 0;
+}
+
+.converter-list-item {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.add-button {
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 20px;
+}
+
+.icon-button {
+  background: none;
+  border: none;
+}
+
+.icon-button .icon {
+  height: 2rem;
+  width: 2rem;
+}
+
+.icon-button .icon.small {
+  height: 1.5rem;
+}
+
+.empty-delete-button {
+  height: 1rem;
+  width: 2.75rem;
+  flex-shrink: 0;
+}
+
+.arrow-icon {
+  height: 2rem;
+  width: 2rem;
+  margin: 0 10px;
 }

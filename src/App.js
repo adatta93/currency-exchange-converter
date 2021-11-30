@@ -23,7 +23,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1>Currency Converter</h1>
+      <h1 className="app-title">Currency Converter</h1>
       <div className="row">
         <div className="empty-delete-button"></div>
         <div className="col-from">FROM</div>
